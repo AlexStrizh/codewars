@@ -1,4 +1,4 @@
-package kyu8.fundamentals.aneedleinthehaystack;
+package kyu8.fundamentals;
 
 import java.util.Arrays;
 
