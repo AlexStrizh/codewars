@@ -1,4 +1,4 @@
-package kyu8.fundamentals;
+package kyu8;
 
 public class SentenceSmash {
     public static String smash(String... words) {

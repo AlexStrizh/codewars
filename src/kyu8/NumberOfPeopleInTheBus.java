@@ -1,4 +1,4 @@
-package kyu8.fundamentals;
+package kyu8;
 
 import java.util.ArrayList;
 
