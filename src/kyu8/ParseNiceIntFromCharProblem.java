@@ -14,6 +14,6 @@ public class ParseNiceIntFromCharProblem {
 
 class CharProblem {
     public static int howOld(final String herOld) {
-        return Integer.valueOf(herOld.split(" ")[0]);
+        return Character.getNumericValue(herOld.charAt(0));
     }
 }
