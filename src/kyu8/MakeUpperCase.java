@@ -1,3 +1,6 @@
+/*
+Write function makeUpperCase.
+ */
 package kyu8;
 
 public class MakeUpperCase {
