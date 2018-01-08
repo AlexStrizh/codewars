@@ -6,5 +6,14 @@ Assume test input string always valid and may look like "1 year old" or "5 years
 
 package kyu8;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class ParseNiceIntFromCharProblem {
+}
+
+class CharProblem {
+    public static int howOld(final String herOld) {
+        return Integer.valueOf(herOld.split(" ")[0]);
+    }
 }
