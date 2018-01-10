@@ -1,5 +1,6 @@
 /*
-You task is to implement an simple interpreter for the notorious esoteric language HQ9+ that will work for a single character input:
+You task is to implement an simple interpreter for the notorious esoteric language HQ9+ that will work for a single
+character input:
 
 If the input is 'H', return 'Hello World!'
 If the input is 'Q', return the input
