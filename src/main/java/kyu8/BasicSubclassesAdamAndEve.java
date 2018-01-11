@@ -9,13 +9,11 @@ Your job is to implement the Human, Man and Woman classes.
 package kyu8;
 
 public class BasicSubclassesAdamAndEve {
-
-        public static Human[] create(){
-            return new Human[] {new Man(), new Woman()};
-        }
-
-
+    public static Human[] create(){
+        return new Human[] {new Man(), new Woman()};
+    }
 }
+
 class Human {
 }
 
