@@ -8,7 +8,6 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 public class ANeedleInTheHaystackTest {
-    @Benchmark
     @Test
     public void basicTests() {
         String msg = "Make sure your basic example test cases work";
@@ -19,7 +18,6 @@ public class ANeedleInTheHaystackTest {
         assertEquals(msg, "found the needle at position 5", ANeedleInTheHaystack.findNeedle(haystack2));
         assertEquals(msg, "found the needle at position 30", ANeedleInTheHaystack.findNeedle(haystack3));
     }
-    @Benchmark
     @Test
     public void randomTests() {
         Random randGen = new Random();
@@ -35,9 +33,5 @@ public class ANeedleInTheHaystackTest {
             }
             assertEquals("Try again, didn't find the needle in the right place", "found the needle at position " + randI, ANeedleInTheHaystack.findNeedle(junk));
         }
-    }
-
-    @Benchmark
-    public void measureName() {
     }
 }
