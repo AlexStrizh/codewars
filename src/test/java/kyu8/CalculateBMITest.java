@@ -28,12 +28,4 @@ public class CalculateBMITest {
         double bmi = w/(h*h);
         return bmi>30.0 ? "Obese" : bmi<=30.0 && bmi>25.0 ? "Overweight" : bmi<=18.5 ? "Underweight" : "Normal";
     }
-
-    @Test
-    public void testBMI2() {
-        assertEquals("Underweight", CalculateBMI.bmi2(50, 1.80));
-        assertEquals("Normal", CalculateBMI.bmi2(80, 1.80));
-        assertEquals("Overweight", CalculateBMI.bmi2(90, 1.80));
-        assertEquals("Obese", CalculateBMI.bmi2(100, 1.80));
-    }
 }
