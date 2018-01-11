@@ -8,6 +8,7 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 public class ANeedleInTheHaystackTest {
+
     @Test
     public void basicTests() {
         String msg = "Make sure your basic example test cases work";
