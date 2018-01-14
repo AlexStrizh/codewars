@@ -14,7 +14,6 @@ package kyu8;
 
 public class NthPower {
     public static int nthPower(int[] array, int n) {
-        if (n >= array.length) return -1;
-        return (int) Math.pow(array[n], n);
+        return (n >= array.length) ? -1 : (int) Math.pow(array[n], n);
     }
 }
