@@ -10,9 +10,6 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class ParseNiceIntFromCharProblem {
-}
-
-class CharProblem {
     public static int howOld(final String herOld) {
         return Character.getNumericValue(herOld.charAt(0));
     }

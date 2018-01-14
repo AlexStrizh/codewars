@@ -12,13 +12,11 @@ object that can fit into a given box.
 package kyu8;
 
 public class CirclesInPolygons {
-}
 
-class Polygon {
     int sides;
     int sideLength;
 
-    public Polygon(int sides, int sideLength) {
+    public CirclesInPolygons(int sides, int sideLength) {
         this.sides = sides;
         this.sideLength = sideLength;
     }
