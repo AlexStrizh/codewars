@@ -14,12 +14,10 @@ Zero alone is fine, don't worry about it. Poor guy anyway
  */
 package kyu8;
 
-import java.util.Arrays;
-
 public class NoZerosForHeros {
     public static int noBoringZeros(int n) {
-
-return 0;
+        while (n !=0 && n % 10 == 0) n = n / 10;
+        return n;
     }
 
 }
