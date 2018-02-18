@@ -1,1 +1,1 @@
-# codewars
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7f1f618184a44eabba235228bd4e4997)](https://www.codacy.com/app/AlexStrizh/codewars?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexStrizh/codewars&amp;utm_campaign=Badge_Grade)
