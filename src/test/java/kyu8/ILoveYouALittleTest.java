@@ -17,7 +17,7 @@ public class ILoveYouALittleTest {
     @Test
     public void testRandomValues() {
         Random rand = new Random();
-        for (int k=0;k<50;k++)
+        for (int k=0;k<30;k++)
         {
             int n = rand.nextInt(100) + 0;
 
