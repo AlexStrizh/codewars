@@ -2,6 +2,8 @@ package kyu8;
 
 import org.junit.Test;
 
+import java.util.Locale;
+
 import static org.junit.Assert.*;
 
 public class CirclesInPolygonsTest {
@@ -10,15 +12,15 @@ public class CirclesInPolygonsTest {
     public void testExamples(){
         //Square with sides of 5 units
         CirclesInPolygons poly=new CirclesInPolygons(4, 5);
-        assertEquals("5,000", String.format("%.3f", poly.circleDiameter()));
+        assertEquals("5.000", String.format(Locale.US, "%.3f", poly.circleDiameter()));
 
         //Octogon with sides of 9 units
         poly=new CirclesInPolygons(8, 9);
-        assertEquals("21,728", String.format("%.3f", poly.circleDiameter()));
+        assertEquals("21.728", String.format(Locale.US,"%.3f", poly.circleDiameter()));
 
         //Triangle with sides of 4 units
         poly=new CirclesInPolygons(3, 4);
-        assertEquals("2,309", String.format("%.3f", poly.circleDiameter()));
+        assertEquals("2.309", String.format(Locale.US,"%.3f", poly.circleDiameter()));
     }
 
     @Test
