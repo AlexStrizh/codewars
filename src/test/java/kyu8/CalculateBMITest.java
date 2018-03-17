@@ -1,7 +1,6 @@
 package kyu8;
 
 import org.junit.Test;
-import org.openjdk.jmh.annotations.Benchmark;
 
 import static org.junit.Assert.*;
 
